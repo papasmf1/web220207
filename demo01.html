@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <img src="sponsor1.png" id="helpIcon" 
+                onmouseover="window.alert('문자열출력');"/>
+        <br/>
+        <img src="sponsor2.png" id="helpIcon2"/>
+        <script>
+            var helpIcon2 = document.getElementById("helpIcon2"); 
+            helpIcon2.addEventListener("mouseover", function() {
+                window.alert("두번째 이미지"); 
+            }); 
+        </script>
+    </body>
+</html>
