@@ -4,7 +4,7 @@
 http://html5test.com/index.html
 
 *브라우져별 어떤 버전부터 기능이 지원되는지를 검색하는 경우 
-http://caniuse.com/
+http://caniuse.com/  
 
 *한국의 웹브라우져 점유율
 https://gs.statcounter.com/browser-market-share/all/south-korea/#monthly-202012-202201
@@ -22,7 +22,7 @@ http://code.visualstudio.com
 *깃관련 프로그램 설치 
 https://git-scm.com/
 
-*깃사용 
+*Git사용법 
 echo "# web220207" >> README.md
 git init
 git add README.md
@@ -122,3 +122,25 @@ dotnet new webapp -o aspnetcoreapp
 cd aspnetcoreapp
 dotnet watch run
 
+
+*앞으로 공부할 만한 자료들 
+각종 강의가 무료로 오픈된 생활코딩 
+https://opentutorials.org/course/1
+
+다양한 책이 무료로 오픈된 위키독스
+https://wikidocs.net/
+
+모던 웹을 위한 HTML5+CSS3 바이블
+http://www.yes24.com/Product/Goods/72297124
+
+생활코딩! HTML+CSS+자바스크립트
+http://www.yes24.com/Product/Goods/67883315
+
+생활코딩! React 리액트 프로그래밍
+http://www.yes24.com/Product/Goods/98551057
+
+Node.js 교과서
+http://www.yes24.com/Product/Goods/91213376
+
+혼자 공부하는 파이썬 
+http://www.yes24.com/Product/Goods/74269975
