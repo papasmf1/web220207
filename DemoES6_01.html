@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var a = 1; //전역 지역의 전역변수
+            
+            function funcA() {  //전역 지역의 전역 함수
+                //지역 변수
+                var a = 5; 
+                console.log(a);
+                return 2;
+            }
+            
+            
+            console.log(a);
+            console.log(funcA());
+            
+        </script>
+    </body>
+</html>
