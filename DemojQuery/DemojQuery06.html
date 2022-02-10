@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Basic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		//id가 btn2인 대상을 선택해서, 이벤트 적용
+		$("#btn2").click(function() {
+			alert($(this).val());
+		});
+		
+		//id가 btn3인 대상을 선택해서, 이벤트 적용
+		// : 자신의 value를 <span id="resultView"> 영역에 출력
+		$("#btn3").click(function() {
+			//alert($(this).val());
+			//$("#resultView").text($(this).val());
+			
+			//innerHTML 형식으로 html tag 적용 : html()
+			$("#resultView").html("<font color=blue>"+ $(this).val() + "</font>");
+		});
+	});
+</script>
+</head>
+<body>
+<div class="container">
+	<br><br>
+	<input type="button" value="Test 1: 이벤트 적용 X"><br><br>
+	<input type="button" value="Test 2: 값(value) 출력" id="btn2"><br><br>
+	<input type="button" value="Test 3: 값(value)를 span에 출력" id="btn3"> : 
+	
+	<span id="resultView">span 영역</span>
+</div>
+</body>
+</html>

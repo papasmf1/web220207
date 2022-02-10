@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		
+		//1. id가 testBtn일 경우, 클릭하면 자신의 value를 alert으로 출력
+		$("#testBtn").click(function() {
+			alert($(this).val());
+		});
+		
+		//2. class가 "student"인 경우, 클릭하면 id가 result인 영역에 자신의 text 출력
+		//   셀렉터를 , 로 이어서 둘 다 출력되도록 함
+		$(".student, .teacher").click(function() {
+			//alert($(this).text());
+			$("#result").html("<font color=blue>"+ $(this).text()+ "</font>");
+		});
+		
+	});
+</script>
+</head>
+<body>
+<div class="container">
+	<input type="button" value="selector 연습 1" id="testBtn"><br><br>
+	
+	<div class="student">파프리카</div>
+	<div class="teacher">오렌지</div>
+	<div class="student">자몽</div><br>
+	<hr>
+	<div id="result"></div>
+</div>
+</body>
+</html>
