@@ -61,6 +61,14 @@ $ ng serve (--open, --port ..)
 
 생성된 프로젝트는 기본 포트로 4200번을 사용한다. 
 
+*다양한 프론트엔드 기술과 데이터베이스, 언어 통계 
+https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies
+
+*React, Vue, Angular 비교 
+https://velog.io/@goblin820/TIL-2-Vue-React-Angular
+
+*구글 트렌드를 통해서 비교해보기(React, Vue, Angular)
+https://trends.google.co.kr/trends/explore?geo=KR&q=react,vue,angular
 
 *Three.js의 구조를 잘 설명한 문서 
 https://threejs.org/manual/#en/fundamentals
